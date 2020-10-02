@@ -24,7 +24,7 @@
   font-size: 24px;
   line-height: 29px;
   margin-bottom: 50px;
-  width: 400px;
+  max-width: 400px;
 }
 
 .read-more {
@@ -35,7 +35,7 @@
   line-height: 22px;
 }
 
-.material-icons {
+.arrow-icon {
   color: #FFFFFF;
   margin-left: 10px;
 }

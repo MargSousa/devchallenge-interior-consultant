@@ -4,10 +4,12 @@ body {
   font-family: 'Montserrat', sans-serif; 
   background-color: #181719;
   color: #FFFFFF;
+  width: 100%;
 }
 
 .App {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   margin: 46px 77px;
 }

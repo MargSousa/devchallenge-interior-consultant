@@ -11,7 +11,7 @@ const Homepage = () => {
         <div className="main-text">A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.</div>
         <div className="read-more">
           Read more
-          <i className="material-icons">arrow_right_alt</i>
+          <i className="material-icons arrow-icon">arrow_right_alt</i>
         </div>
       </div>
       <div className="design">
