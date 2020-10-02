@@ -1,0 +1,151 @@
+.Homepage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 100px 0px 50px 0px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.main-title {
+  font-family: 'Lora', serif;
+  font-size: 48px;
+  line-height: 61px;
+  margin-bottom: 40px;
+}
+
+.main-text {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 50px;
+  width: 400px;
+}
+
+.read-more {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.material-icons {
+  color: #FFFFFF;
+  margin-left: 10px;
+}
+
+.design {
+  width: 50%;
+}
+
+.design-image {
+  width: 100%
+}
+
+.design-image img {
+  width: 100%
+}
+
+.design-info {
+  background-color: #181719;
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  margin: 0 auto;
+  position: relative;
+  bottom: 90px;
+  left: 80px;
+}
+
+.designer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.designer img {
+  width: 60px;
+  height: 60px;
+  margin: 20px 30px;
+  border-radius: 50%;
+}
+
+.designer-name {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 8px;
+}
+
+.designer-job {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #828282;
+}
+
+.designer-text {
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  width: 267px;
+  margin: 0px 0px 34px 26px;
+}
+
+@media(max-width: 992px) {
+  .Homepage {
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0px 20px 0px;
+  }
+  .design,
+  .intro {
+    width: 100%;
+  }
+  .design-info {
+    width: 70%;
+    position: relative;
+    bottom: 80px;
+    left: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #181719;
+  }
+  .main-title {
+    font-size: 36px;
+    line-height: 46px;
+    margin-bottom: 30px;
+  }
+  .main-text {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 20px;
+  }
+  .read-more {
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .designer img {
+    width: 50px;
+    height: 50px;
+  }
+  .designer-name {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .designer-job {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .designer-text {
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
